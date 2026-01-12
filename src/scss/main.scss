@@ -12,3 +12,30 @@ img,
 video {
   display: block;
 }
+
+body {
+  margin: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #f00;
+}
+
+.button-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f00;
+}
+
+.button-count {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
