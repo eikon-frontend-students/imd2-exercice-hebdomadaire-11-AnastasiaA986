@@ -4,20 +4,11 @@
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
-
-img,
-video {
-  display: block;
-}
-
 body {
   margin: 50px;
 }
 
-button {
+.btn {
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -25,6 +16,10 @@ button {
   background-color: white;
   border-radius: 25px;
   border: 2px solid #f00;
+}
+
+.btn img {
+  content: url(/src/img/icon-heart.svg);
 }
 
 .button-text {
@@ -38,4 +33,17 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+.btn.is-active {
+  background: #f00;
+  color: white;
+}
+
+.btn.is-active img {
+  content: url(/src/img/icon-heart-white.svg);
+}
+
+.btn.is-active .button-text {
+  color: white;
 }
